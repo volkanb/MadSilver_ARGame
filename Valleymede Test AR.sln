@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valleymede Test AR", "Valleymede Test AR.csproj", "{861A4161-07FF-9E0A-31AA-5F63C32172F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valleymede Test AR.Editor", "Valleymede Test AR.Editor.csproj", "{09EF2895-1C1E-AA44-3E50-21F82100BC1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{861A4161-07FF-9E0A-31AA-5F63C32172F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{861A4161-07FF-9E0A-31AA-5F63C32172F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{861A4161-07FF-9E0A-31AA-5F63C32172F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{861A4161-07FF-9E0A-31AA-5F63C32172F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09EF2895-1C1E-AA44-3E50-21F82100BC1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09EF2895-1C1E-AA44-3E50-21F82100BC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09EF2895-1C1E-AA44-3E50-21F82100BC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09EF2895-1C1E-AA44-3E50-21F82100BC1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

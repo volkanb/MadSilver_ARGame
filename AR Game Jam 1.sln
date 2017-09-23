@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AR Game Jam 1", "AR Game Jam 1.csproj", "{ADC5CB9E-1626-CFE7-E539-7B970D98CC73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AR Game Jam 1.Editor", "AR Game Jam 1.Editor.csproj", "{1394124C-6E5B-51E0-D9A5-D3132CCEF7CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADC5CB9E-1626-CFE7-E539-7B970D98CC73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC5CB9E-1626-CFE7-E539-7B970D98CC73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC5CB9E-1626-CFE7-E539-7B970D98CC73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC5CB9E-1626-CFE7-E539-7B970D98CC73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1394124C-6E5B-51E0-D9A5-D3132CCEF7CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1394124C-6E5B-51E0-D9A5-D3132CCEF7CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1394124C-6E5B-51E0-D9A5-D3132CCEF7CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1394124C-6E5B-51E0-D9A5-D3132CCEF7CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

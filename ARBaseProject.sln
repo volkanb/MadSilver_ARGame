@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARBaseProject", "ARBaseProject.csproj", "{546B39BB-DF39-F089-D2DF-F26107D67675}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARBaseProject.Editor", "ARBaseProject.Editor.csproj", "{ED758217-8750-2963-2006-651A0366F2E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{546B39BB-DF39-F089-D2DF-F26107D67675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{546B39BB-DF39-F089-D2DF-F26107D67675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{546B39BB-DF39-F089-D2DF-F26107D67675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{546B39BB-DF39-F089-D2DF-F26107D67675}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED758217-8750-2963-2006-651A0366F2E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED758217-8750-2963-2006-651A0366F2E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED758217-8750-2963-2006-651A0366F2E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED758217-8750-2963-2006-651A0366F2E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
