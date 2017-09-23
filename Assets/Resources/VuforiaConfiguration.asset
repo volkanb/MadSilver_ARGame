@@ -44,14 +44,26 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
-    - QueenOfDiamonds
-    - Joker
-    - AceOfSpades
+    - ArcaneNew
+    - EarthNew
+    - FireNew
+    - WaterNew
+    - WindNew
+    - Fire
+    - Earth
+    - Arcane
+    - Air
     - VM1
     dataSetsToActivate:
-    - QueenOfDiamonds
-    - Joker
-    - AceOfSpades
+    - ArcaneNew
+    - EarthNew
+    - FireNew
+    - WaterNew
+    - WindNew
+    - Fire
+    - Earth
+    - Arcane
+    - Air
     - VM1
   videoBackground:
     clippingMode: 0

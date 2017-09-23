@@ -15,7 +15,7 @@ public class SpriteTest : MonoBehaviour
     public void FoundSprite()
     {
         currentState = SpriteStates.TRACKED;
-
+        //Debug.Break();
     }
 
     public void LostSprite()
