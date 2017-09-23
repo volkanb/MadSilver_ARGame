@@ -13,6 +13,8 @@ namespace Vuforia
     /// </summary>
     public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandler
     {
+        public GameManager gManager;
+
         #region PRIVATE_MEMBER_VARIABLES
         private TrackableBehaviour mTrackableBehaviour;
         #endregion // PRIVATE_MEMBER_VARIABLES
@@ -57,7 +59,6 @@ namespace Vuforia
         #region PRIVATE_METHODS
         private void OnTrackingFound()
         {
-            Debug.Log("Tracking FOUND!!!");
             Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
             Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
 
@@ -67,6 +68,8 @@ namespace Vuforia
 
             if (sprite)
             {
+                // Triggers game manager's card draw behaviour
+                gManager.DrawnCard(mTrackableBehaviour.TrackableName);
                 sprite.FoundSprite();
             }
 

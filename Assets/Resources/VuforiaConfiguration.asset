@@ -44,6 +44,7 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
+    - Water
     - ArcaneNew
     - EarthNew
     - FireNew
@@ -55,6 +56,7 @@ MonoBehaviour:
     - Air
     - VM1
     dataSetsToActivate:
+    - Water
     - ArcaneNew
     - EarthNew
     - FireNew
